@@ -1,16 +1,32 @@
 import sqlite3
 import unittest
-from simple_crud import create_table, get_db, close_db, init_db
+from simple_crud.create_db import create_table
 
 # Define the test database name
 CONFIG_DB_NAME = "test_database.db"
 
+def get_db():
+    return sqlite3.connect(CONFIG_DB_NAME)
+
+def close_db():
+    db = get_db()
+    db.close()
+
+def init_db():
+    db = get_db()
+    cursor = db.cursor()
+    # Initialize any necessary setup for the database here
+    db.commit()
+    db.close()
+
 class TestCreateTable(unittest.TestCase):
 
-    def setUp(self):
+    @classmethod
+    def setUpClass(cls):
         init_db()
 
-    def tearDown(self):
+    @classmethod
+    def tearDownClass(cls):
         close_db()
 
     def test_create_table(self):

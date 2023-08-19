@@ -1,5 +1,8 @@
 import sqlite3
-from . import CONFIG_DB_NAME , get_db, close_db, init_db
+
+from ._database_handler import get_db, close_db
+
+# from . import get_db, close_db, init_db
 
 
 def create_table(table_name, columns):
