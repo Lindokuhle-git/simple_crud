@@ -163,6 +163,7 @@ cython_debug/
 *.sqlite
 *.db
 *.db3
+*.db-journal
 
 #IDE
 .vscode

@@ -1,9 +1,13 @@
+import os
 import sqlite3
 import unittest
 from simple_crud.create_db import create_table
+from simple_crud._database_handler import set_CONFIG_DB_NAME
 
 # Define the test database name
-CONFIG_DB_NAME = "test_database.db"
+CONFIG_DB_NAME = "test_create_database.db"
+set_CONFIG_DB_NAME("test_create_database.db")
+
 
 def get_db():
     return sqlite3.connect(CONFIG_DB_NAME)
@@ -28,6 +32,7 @@ class TestCreateTable(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         close_db()
+        os.remove(CONFIG_DB_NAME)
 
     def test_create_table(self):
         # Define the test table name and columns
@@ -47,7 +52,6 @@ class TestCreateTable(unittest.TestCase):
         cursor.execute(f"SELECT name FROM sqlite_master WHERE type='table' AND name='{table_name}'")
         result = cursor.fetchone()
         self.assertIsNotNone(result, f"Table '{table_name}' does not exist in the database.")
-        db.close()
 
         # Assert that the columns exist in the table
         cursor.execute(f"PRAGMA table_info({table_name})")
