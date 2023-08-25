@@ -24,7 +24,7 @@ def init_db():
     # db.commit()
     # db.close()
 
-class TestReadTable(unittest.TestCase):
+class TestUpdateTable(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
