@@ -8,7 +8,7 @@ This package is built using the sqlite3 (as this DBMS is provided as a python bu
 Your PC must have python3 to run the project. The python programming language can be downloaded using this following link:
 https://www.python.org/downloads/
 
-# Troubleshooting the URL-SHortner project:
+# Troubleshooting the Package:
 Should any issues arise while running the programme: ~ Use the issues board on github for the project you have issues with, you can assign me and I will comment back as soon as I get the time.
 
 OR : You can email me at lindokuhlerajuili@gmail.com with the name of the project as the subject.
