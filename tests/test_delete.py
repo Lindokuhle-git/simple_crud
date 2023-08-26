@@ -1,7 +1,7 @@
 import os
 import sqlite3
 import unittest
-from simple_crud.delete import delete_table
+from simple_crud.delete_db import delete_table
 from simple_crud._database_handler import set_CONFIG_DB_NAME
 from tests.test_create_db import CONFIG_DB_NAME
 
