@@ -1,0 +1,1 @@
+-e git+ssh://git@github.com/Lindokuhle-git/simple_crud.git@5a56c66b2705a36d0ceb3b319e6c6682da08a541#egg=simple_crud
