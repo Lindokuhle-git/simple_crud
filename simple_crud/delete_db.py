@@ -21,3 +21,7 @@ def delete_table(table_name):
         print(f"An error occurred: {e}")
     finally:
         close_db()     
+
+
+def delete_row_in_table(table_name, condition_data):
+    pass        
