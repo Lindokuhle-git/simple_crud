@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='simple_crud',
-    version='0,0,0',
+    version='1.0.0',
     author='Lindokuhle',
     author_email='lindokuhlerajuili@gmail.com',
     description='''A simple database package that creates a table, 
