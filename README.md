@@ -17,6 +17,8 @@ It should start installing on your local pc
 
 <img width="617" alt="image" src="https://github.com/Lindokuhle-git/simple_crud/assets/80815469/7f6502a3-f11c-46ca-bc05-df58fd837673">
 
+You can start using it in your project files by calling it with the import statement. 
+
 
 # Troubleshooting the Package:
 Should any issues arise while using the package: 
