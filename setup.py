@@ -11,7 +11,5 @@ setup(
                    adds records in a table, 
                    deletes a record from a table and also updates info''',
     packages=find_packages(),
-    install_requires=[
-        'sqlite3',  
-    ],
+    
 )
