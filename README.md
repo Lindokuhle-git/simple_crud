@@ -11,13 +11,17 @@ https://www.python.org/downloads/
 # Installing package:
 For any project you want to use it for, You can use the command : 
 
-pip install git+https://github.com/Lindokuhle-git/simple_crud.git
+<img width="446" alt="image" src="https://github.com/Lindokuhle-git/simple_crud/assets/80815469/cf349839-12d9-4cc7-9c85-e85e8c81eab2">
+
 
 It should start installing on your local pc 
 
 <img width="617" alt="image" src="https://github.com/Lindokuhle-git/simple_crud/assets/80815469/7f6502a3-f11c-46ca-bc05-df58fd837673">
 
-You can start using it in your project files by calling it with the import statement. 
+You can start using it in your project files by calling it with the import statement.
+
+<img width="110" alt="image" src="https://github.com/Lindokuhle-git/simple_crud/assets/80815469/e4d61685-9a4b-4a3f-9c85-7c3eae17e182">
+
 
 
 # Troubleshooting the Package:
