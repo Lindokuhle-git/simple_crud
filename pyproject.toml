@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.poetry]
+name = "simple-crud"
+version = "0.1.0"
+description = "A simple CRUD package for managing databases."
+authors = ["Lindokuhle <lindokuhlerajuili@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+# Add your project dependencies here
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+# Add your development dependencies here
+
+[build-system.sdist]
+formats = ["tar"]
+
+[build-system.wheel]
+universal = false
