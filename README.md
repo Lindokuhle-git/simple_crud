@@ -2,17 +2,17 @@
 Simple CRUD is a Python package designed to **simplify the process of working with SQLite databases** for basic CRUD (Create, Read, Update, Delete) operations. It provides a set of utility functions and modules to interact with SQLite databases in a straightforward and user-friendly way.
 
 ## Features
-- Create Tables: Easily create database tables with specified columns and data types.
-- Read Data: Retrieve data from database tables using customizable queries.
-- Update Data: Update records in a table based on specified conditions.
-- Delete Data: Delete records from a table based on specified conditions.
-- Database Management: Initialize and manage SQLite databases effortlessly.
+- *Create Table*s: Easily create database tables with specified columns and data types.
+- *Read Data*: Retrieve data from database tables using customizable queries.
+- *Update Data*: Update records in a table based on specified conditions.
+- *Delete Data*: Delete records from a table based on specified conditions.
+- *Database Management*: Initialize and manage SQLite databases effortlessly.
 
 ## Database 
-This package is built using the sqlite3 (as this DBMS is provided as a python builtin tool) and currently can be used with it. 
+This package uses **SQLITE3** (provided as a python builtin tool) as the main dbms.
 
 ## What to download to run the project:
-Your PC must have python3 to run the project. The python programming language can be downloaded using this following link:
+Your PC must have python3 to run the package. The python programming language can be downloaded using this following link:
 https://www.python.org/downloads/
 
 ## Installing package:
