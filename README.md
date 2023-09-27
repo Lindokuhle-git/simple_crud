@@ -1,5 +1,16 @@
 # simple_crud
-This is a simple PYTHON database package that allows user to manipulate data (create, read, update and delete) using sql statement queries. The user won't have to write the whole sql statement, just call the function associated with the statement query, provide arguments and will be executed for them. 
+Simple CRUD is a Python package designed to simplify the process of working with SQLite databases for basic CRUD (Create, Read, Update, Delete) operations. It provides a set of utility functions and modules to interact with SQLite databases in a straightforward and user-friendly way.
+
+# Features
+Create Tables: Easily create database tables with specified columns and data types.
+
+Read Data: Retrieve data from database tables using customizable queries.
+
+Update Data: Update records in a table based on specified conditions.
+
+Delete Data: Delete records from a table based on specified conditions.
+
+Database Management: Initialize and manage SQLite databases effortlessly.
 
 # Database 
 This package is built using the sqlite3 (as this DBMS is provided as a python builtin tool) and currently can be used with it. 
