@@ -71,6 +71,6 @@ We welcome contributions! If you would like to contribute to this project, pleas
 
 ## Troubleshooting the Package:
 Should any issues arise while using the package: 
-~ Use the [issues board]() on github for the project you have issues with, you can assign me and I will comment back as soon as I get the time.
+~ Use the [issues board](https://github.com/Lindokuhle-git/simple_crud/issues) on github for the project you have issues with, you can assign me and I will comment back as soon as I get the time.
 
 OR : You can email me at lindokuhlerajuili@gmail.com with the name of the project as the subject.
