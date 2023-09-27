@@ -2,7 +2,7 @@ import os
 import sqlite3
 import unittest
 from simple_crud.create_db import create_table
-from simple_crud._database_handler import set_CONFIG_DB_NAME
+from simple_crud._database_handler import set_CONFIG_DB_NAME, TEXT, REAL
 
 # Define the test database name
 CONFIG_DB_NAME = "test_create_database.db"
@@ -38,9 +38,9 @@ class TestCreateTable(unittest.TestCase):
         # Define the test table name and columns
         table_name = "test_table"
         columns = [
-            ("column1", "INTEGER"),
-            ("column2", "TEXT"),
-            ("column3", "REAL")
+            ("column1", TEXT),
+            ("column2", TEXT),
+            ("column3", REAL)
         ]
 
         # Call create_table to create the test table
