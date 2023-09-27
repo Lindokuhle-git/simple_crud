@@ -2,7 +2,7 @@ import os
 import sqlite3
 import unittest
 from simple_crud.insert_db import insert_data
-from simple_crud._database_handler import set_CONFIG_DB_NAME
+from simple_crud._database_handler import set_CONFIG_DB_NAME, TEXT, SQL_INTEGER
 from tests.test_create_db import CONFIG_DB_NAME
 
 # Define the test database name
@@ -37,7 +37,7 @@ class TestInsertData(unittest.TestCase):
     def test_insert_data(self):
         # Define the test table name and columns
         table_name = "test_insert_table"
-        columns = [("name", "TEXT"), ("age", "INTEGER")]
+        columns = [("name", TEXT), ("age", SQL_INTEGER)]
 
         # Define the test values to insert
         values = ("Alice", 25)

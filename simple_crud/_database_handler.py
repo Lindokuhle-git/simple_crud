@@ -6,6 +6,11 @@ import sqlite3
 
 CONFIG_DB_NAME = ""
 
+TEXT = "TEXT"
+SQL_INTEGER = "INTEGER"
+REAL = "REAL"
+BLOB = "BLOB"
+
 def set_CONFIG_DB_NAME(value):
     global CONFIG_DB_NAME
     CONFIG_DB_NAME = value
